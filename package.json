@@ -1,0 +1,31 @@
+{
+  "name": "url",
+  "version": "1.0.0",
+  "description": "pasre the url",
+  "keywords": [],
+  "homepage": "",
+  "author": "tonyhark5483@hotmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Tonyhark/url.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  },
+  "devDependencies": {
+    "spm": "3"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm build"
+  }
+}
